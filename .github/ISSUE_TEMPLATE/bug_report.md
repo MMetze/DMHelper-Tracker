@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-**Nickname**
+**Discord User:**
 If you're creating this for someone else on the discord, please state the nickname
 
 **Describe the bug**
