@@ -1,0 +1,83 @@
+# General
+
+**What is DM Helper?**
+
+DM Helper (Or DMH for short) is a program for Windows 64 & MacOS that helps Dungeon Masters create, organize, and run sessions for their players. DMH is the ‘Swiss Army Knife of Dungeon Masters’
+
+
+
+**What does it do?** 
+
+DMH has a number varying tools to help any DM no matter their style:
+
+•  Organize your NPCs, settings, adventures, and encounters with collapsible and expanding header  via the Campaign Tree.
+•  Import Player Character data from D&D Beyond
+•  Import battle maps to display to players on a secondary display, both images and video for those swanky animated maps
+•  Display a Fog of War, that can be edited on the fly and displayed to your players over your battle map
+•  Track combat information such as HP, AC, initiative, and player/NPC speed & position using DMH’s Initiative Tracker
+•  Quickly access basic DM information such as conditions, actions, goods and services tables, a timer, and even a dice roller
+•  Create custom tables to get random results on those nat 1s
+•  All this and so much more!
+
+
+**Where can I find new releases & features for DMH?**
+
+You can always find new official releases and their patch notes right here in the #dmh-releases channel! If you’re a patron you also get access to experimental beta builds before everyone else!
+
+
+**I need help!**
+
+We’re so sorry you need help, try checking out our troubleshooting section of the FAQ and see if your problem is there. If it isn’t feel free to drop a message in the #support channel and a member of the community should be able to help you out!
+
+
+**I think I have a bug, what do I do?**
+
+We hope you never run into bugs, and we make an effort to troubleshoot those ahead of time so check out the troubleshooting section of our FAQ to see if it’s a known issue. If you can’t find it  drop a message in the #bug-reports channel with how you got to the bug. 
+Some bugs may be more complex than others and we may require your dmhelper.log XML file to help solve the problem; which you can post in discord with your bug report. 
+
+
+
+**I have a really cool idea for the DM Helper, is there somewhere I can post it?**
+
+We’re always on the lookout for ways to help different DMs create, organize, and run their campaigns so feel free to drop your idea in the #feature-requests channel. 
+
+Be wary though we have a lot of features already on the #roadmap and you might be suggesting something we’ve already got lined up!
+
+
+**I really love DM Helper and I want to show my support! What can I do?**
+
+We are SO glad you’re loving DM Helper! the best way to help us is by continuing to give us valuable feedback and spreading the word. Below are our social media links where you can tag us and like us for updated information and sharing us to all your friends!
+
+•Website:
+•Twitter:
+•Subreddit:
+•Itch.IO:
+
+If you want to contribute more than just being valued member of the community you’re always welcome to support us via Patreon! https://www.patreon.com/dmhelper/
+
+
+
+## Troubleshooting
+
+**I installed the program but it keeps crashing, saying something about a ‘MSVCP140.dll’?**
+
+Unfortunately MSVCP140.dll is apart of Microsoft Visual Studio, and is required to run DM Helper. MSVCP140.dll is not pre-installed on any Windows versions before Windows 8, fortunately you can download MVS easily here http://bit.ly/DMH-MSVCP140
+
+
+**How do I use my encounter that I made? **
+
+Simply add monsters/NPCs to your encounter from the bestiary, or add them to the bestiary if necessary, and click the ‘Start Battle’ button. This should spawn another window titled ‘Battle View’ which displays all your monsters, NPCs, and player characters. The initiative for monsters and NPCs will automatically be rolled, while the player characters will have blank initiative values for you to enter via your players’ rolls.
+
+
+**My map isn’t showing up in the ‘Battle View’, what gives?**
+
+A battle map must be selected from the list of imported maps under the adventure in which your encounter takes place, by clicking the ‘Add Map’ button. 
+
+NOTE: Maps in other adventures aren’t available to use. Example: Your encounter is in Adventure 1, however there is a map under Adventure 2 you want to add to the ‘Battle View’. This would not work. 
+
+Alternatively you may add any map imported under the ‘World’ heading.
+
+
+**I don’t see monster or player tokens in my battle encounter, what gives?**
+
+More than likely your images are really small as they scale with the size of your grid scale. Try increasing your grid scale and see if you can find the images, if not please leave us a message in #bug-reports
